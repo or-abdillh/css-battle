@@ -1,0 +1,23 @@
+{
+  "name": "css-battle",
+  "version": "1.0.0",
+  "description": "my journeys at CSS Battle",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/or-abdillh/css-battle.git"
+  },
+  "keywords": [
+    "CSS",
+    "CSSBattle"
+  ],
+  "author": "Oka R. Abdillah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/or-abdillh/css-battle/issues"
+  },
+  "homepage": "https://github.com/or-abdillh/css-battle#readme"
+}
