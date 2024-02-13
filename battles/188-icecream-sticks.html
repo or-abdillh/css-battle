@@ -1,0 +1,70 @@
+<main>
+    <div class="top"></div>
+    <div class="bottom"></div>
+    <div class="start"></div>
+    <div class="end"></div>
+    <div class="up-first"></div>
+    <div class="up-second"></div>
+</main>
+
+<style>
+    html {
+        background-color: #fffd9b;
+        display: grid;
+        place-items: center;
+        place-content: center;
+    }
+
+    main {
+        width: 150px;
+        height: 150px;
+        position: relative;
+    }
+
+    div {
+        background-color: #969610;
+        width: 20px;
+        height: 340px;
+        border-radius: 16px;
+        position: absolute;
+    }
+
+    .up-first {
+        top: -95;
+    }
+    .up-second {
+        top: -45;
+    }
+    .start {
+        left: -15;
+    }
+    .end {
+        right: -15;
+    }
+    .top {
+        top: -175;
+    }
+    .bottom {
+        top: -15;
+    }
+
+    .top,
+    .bottom,
+    .up-first {
+        rotate: 90deg;
+        left: 65;
+    }
+
+    .end,
+    .start,
+    .up-second {
+        top: -45;
+        height: 240px;
+    }
+
+    .up-first,
+    .up-second {
+        background-color: #646521;
+        left: 65;
+    }
+</style>
