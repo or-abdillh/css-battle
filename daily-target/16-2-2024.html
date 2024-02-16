@@ -1,0 +1,60 @@
+<div id="horizontal">
+    <div id="vertical"></div>
+</div>
+
+<style>
+    * {
+        margin: 0;
+        background-color: #024817;
+    }
+
+    html {
+        display: grid;
+        place-items: center;
+        place-content: center;
+    }
+
+    #horizontal,
+    #horizontal::after,
+    #horizontal::before {
+        height: 40px;
+        background-color: #cce9d3;
+        z-index: 10;
+    }
+
+    #horizontal {
+        width: 200px;
+        position: relative;
+    }
+
+    #horizontal::after,
+    #horizontal::before {
+        translate: -50% 0;
+        width: 120px;
+        position: absolute;
+        left: 50%;
+        display: block;
+        content: "";
+    }
+
+    #horizontal::after {
+        top: -55;
+        border-bottom: 16px solid #024817;
+    }
+
+    #horizontal::before {
+        bottom: -55;
+        border-top: 16px solid #024817;
+    }
+
+    #vertical {
+        width: 40px;
+        height: 190px;
+        background-color: #cce9d3;
+        position: absolute;
+        top: -75;
+        left: 50%;
+        translate: -50%;
+        z-index: 9;
+    }
+</style>
